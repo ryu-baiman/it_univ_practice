@@ -1,0 +1,244 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  float: left;  
+}
+
+header {
+  background-color: rgba(0, 255, 255, 0.5);
+  color: black;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.header-logo {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 25px 30px;
+  float: left;
+  cursor: pointer;
+  color: red;
+  transition: all 0.5s;
+}
+
+.header-logo:hover {
+  background-color: rgba(0, 255, 255, 0.8);
+}
+
+.header-list {
+  font-size: 15px;
+  float: left;
+}
+
+.header-list li {
+  padding: 30px;
+  transition: all 0.5s;
+}
+
+.header-list li:hover {
+  background-color: rgba(0, 255, 255, 0.8);
+}
+
+.header-list .form {
+  line-height: 90px;
+  padding: 0 25px;
+  cursor: pointer;
+  display: block;
+}
+
+/* モーダル部分　*/
+.signup-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+#signup-form {
+  width: 100%;
+}
+
+#signup-form h2 {
+  color: black;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+#signup-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#signup-form textarea {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 35px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+/* メイン部分　*/
+.main {
+  margin-top: 90px;
+  z-index: 1;
+}
+
+.copy-container {
+  background-image: url(https://www.pakutaso.com/shared/img/thumb/kangoIMGL7849_TP_V.jpg);
+  background-position: 75% 25%;
+  height: 400px;
+}
+
+.copy-container h1 {
+  font-size: 60px;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+.copy-container h2 {
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+.contents {
+  text-align: center;
+  height: 600px;
+  background-color: rgba(192,192,192,0.1);
+}
+
+.contents h2 {
+  padding: 60px;
+  font-size: 30px;
+  color: fuchsia;
+}
+
+.contents-item {
+  float: left;
+  width: 25%;
+}
+
+.contents-icon {
+  position: relative;
+}
+
+.contents-icon p {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+}
+
+.text-contents {
+  margin: 3% auto;
+  width: 80%;
+  color: black;
+  display: none;
+}
+
+.text-active {
+  display: block;
+}
+
+.contact-form {
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.section-title {
+    color: black;
+    font-size: 28px;
+    border-bottom: 2px solid #dee7ec;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+input, textarea {
+    border: 1px solid #dee7ec;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    width: 400px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+
+.footer-title {
+    float: left;
+    font-size: 32px;
+    padding: 30px;
+}
+
+.footer-list {
+    float: right;
+    padding-top: 30px;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+    float: none;
+}

@@ -1,0 +1,40 @@
+/*スマホ画面対応*/
+@media all and (max-width: 670px )  {
+    .header-logo  {
+      font-size: 20px;
+      line-height: 40px;
+    }
+
+    .header-list  {
+        float: right;
+        margin-top: -25px;
+    }
+
+    .header-list li {
+        float: none;
+    }
+
+    .header-list .form  {
+        line-height: 30px;
+    }
+
+    .main  {
+        width: 800px;
+    }
+
+    .copy-container {
+        background-position: 5%;
+    }
+
+    .copy-container h2  {
+        margin-top: 20px;
+    }
+  
+    .contents-item  {
+      flex-wrap: wrap;
+    }
+
+    footer {
+        width: 800px;
+    }
+  }

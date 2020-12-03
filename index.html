@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>学生向けお悩み相談所</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>  
+    </head>
+    <body>
+        <header>
+        　　<div id="top-btn" class="header-logo">学生向けお悩み相談所</div>
+        　　<div class="header-list">
+            <ul>
+              <li class="form">このサイトについて</li>
+              <li class="form">相談一覧</li>
+              <li class="form" id="form-show">お問い合わせ</li>
+            </ul>
+      　　　</div>
+    　  </header>
+        <div class="signup-modal-wrapper" id="signup-modal">
+            <div class="modal">
+                <div class="close-modal">
+                    <i class="fa fa-2x fa-times"></i>
+                </div>
+                <div id="signup-form">
+                    <h2>お問い合わせはこちらまで</h2>
+                    <form action="#">
+                        <input class="form-control" type="text" placeholder="メールアドレス">
+                        <textarea class="form-control" type="text" placeholder="お問い合わせ内容"></textarea>
+                        <div id="submit-btn">送信</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="copy-container">
+                <h1>学生向けお悩み相談所</h1>
+                <h2>10代の若者や学生のあらゆるお悩みを解決いたします</h2>
+            </div>
+            <div class="contents">
+                <h2>こんな相談請け負います！</h2>
+                <div class="contents-item">
+                    <div class="contents-icon">
+                        <img src="https://prog-8.com/images/html/advanced/ruby.png">
+                        <p>恋愛</p>
+                    </div>
+                    <p class="text-contents">告白・恋人との関係性、恋愛感情とどう向き合っていくかという相談をお受けします！</p>
+                </div>
+                <div class="contents-item">
+                    <div class="contents-icon">
+                        <img src="https://prog-8.com/images/html/advanced/html.png">
+                        <p>人間関係</p>
+                    </div>
+                    <p class="text-contents">クラスや部活の人間関係、家族との向き合い方をアドバイスさせていただいております！</p>
+                </div>
+                <div class="contents-item">
+                    <div class="contents-icon">
+                        <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+                        <p>将来への不安</p>
+                    </div>
+                    <p class="text-contents">就職・進学、これからの人生の不安を取り除きます！</p>
+                </div>
+                <div class="contents-item">
+                    <div class="contents-icon">
+                        <img src="https://prog-8.com/images/html/advanced/php.png">
+                        <p>その他</p>
+                    </div>
+                    <p class="text-contents">その他、相談したいけど周りには言えない、誰に相談したらいいかわからないなどがあれば、勇気を出してこの相談所へ！</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="section-title">ご相談はこちらへ</div>
+                <div>ペンネーム</div>
+                <input>
+                <div>ご相談内容</div>
+                <textarea></textarea>
+                <p>※２つの項目を必ずご入力ください</p>
+                <input type="submit" name="送信">
+            </div>
+        </div>
+        <footer>
+            <div class="footer-title">学生向けお悩み相談所</div>
+            <div class="footer-list">
+                <ul>
+                    <li>このサイトについて</li>
+                    <li>相談一覧</li>
+                    <li class="form" id="form-show">お問い合わせ</li>
+                </ul>
+            </div>
+        </footer>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
